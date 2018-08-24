@@ -1,0 +1,28 @@
+{
+  "name": "strip-accented",
+  "description": "Returns a string from which accented characters are stripped.",
+  "version": "0.0.1",
+  "repository": "https://github.com/siegfriedgrimbeek/strip-accented",
+  "main": "index.js",
+  "scripts": {
+    "test": "minijasminenode test.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "function",
+    "strip",
+    "accented",
+    "characters"
+  ],
+  "devDependencies": {
+    "minijasminenode": "^1.1.1",
+    "sinon": "^1.17.7",
+    "mocha": "*",
+    "should": "*"
+  },
+  "component": {
+    "scripts": {
+      "strip-accented/index.js": "index.js"
+    }
+  }
+}
