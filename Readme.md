@@ -2,7 +2,8 @@
 # strip accented
 
   Useful for stripping out accented characters.
-
+  
+[![npm version](https://badge.fury.io/js/strip-accented.svg)](https://badge.fury.io/js/strip-accented)
 [![Build Status](https://travis-ci.org/siegfriedgrimbeek/strip-accented.svg?branch=master)](https://travis-ci.org/siegfriedgrimbeek/strip-accented)
 [![Coverage Status](https://coveralls.io/repos/github/siegfriedgrimbeek/strip-accented/badge.svg?branch=master)](https://coveralls.io/github/siegfriedgrimbeek/strip-accented?branch=master)
 
