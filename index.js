@@ -1,9 +1,9 @@
+'use strict'
+
 /**
- * Returns a function, that, as long as it continues to be invoked, will not
- * be triggered. The function will be called after it stops being called for
- * N milliseconds. If `immediate` is passed, trigger the function on the
- * leading edge, instead of the trailing. The function also has a property 'clear'
- * that is a function which will clear the timer to prevent previously scheduled executions.
+ * Strips out accented characters
+ * @param {string} locale
+ * @return {string}
  */
 
 const stripAccented = (string) => {
@@ -144,7 +144,11 @@ const stripAccented = (string) => {
       'nj': /[\u01CC]/g
     }, {
       'o': /[\u006F\u24DE\uFF4F\u00F2\u00F3\u00F4\u1ED3\u1ED1\u1ED7\u1ED5\u00F5\u1E4D\u022D\u1E4F\u014D\u1E51\u1E53\u014F\u022F\u0231\u00F6\u022B\u1ECF\u0151\u01D2\u020D\u020F\u01A1\u1EDD\u1EDB\u1EE1\u1EDF\u1EE3\u1ECD\u1ED9\u01EB\u01ED\u00F8\u01FF\u0254\uA74B\uA74D\u0275]/g
-    }, {
+    },
+    {
+      'oe': /[\u0153]/g
+    },
+    {
       'oi': /[\u01A3]/g
     }, {
       'ou': /[\u0223]/g

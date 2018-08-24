@@ -9,15 +9,20 @@
 
     $ npm install debounce
 
-## Example
+## Usage
 
 ```js
-var stripAccented = require('stripAccented')
+const stripAccented = require('stripAccented')
 let cleanString = stripAccented('èàáâę')
 
 // cleanString = eaaae
 
 ```
+
+## Tests
+
+  `npm test`
+
 
 ## API
 

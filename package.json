@@ -2,7 +2,10 @@
   "name": "strip-accented",
   "description": "Returns a string from which accented characters are stripped.",
   "version": "0.0.1",
-  "repository": "https://github.com/siegfriedgrimbeek/strip-accented",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siegfriedgrimbeek/strip-accented.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "minijasminenode test.js"
@@ -16,13 +19,17 @@
   ],
   "devDependencies": {
     "minijasminenode": "^1.1.1",
-    "sinon": "^1.17.7",
-    "mocha": "*",
-    "should": "*"
+    "sinon": "^1.17.7"
   },
   "component": {
     "scripts": {
       "strip-accented/index.js": "index.js"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/siegfriedgrimbeek/strip-accented/issues"
+  },
+  "homepage": "https://github.com/siegfriedgrimbeek/strip-accented#readme",
+  "dependencies": {},
+  "author": "Siegfried Grimbeek <siegfried.grimbeek@gmail.com> (www.siegfriedgrimbeek.co.za)"
 }
