@@ -10,7 +10,7 @@
 
   In node:
 
-    $ npm install debounce
+    $ npm install strip-accented
 
 ## Usage
 
